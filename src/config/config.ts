@@ -7,7 +7,7 @@ export default () => ({
       password: process.env.DB_PASSWORD,
       database: process.env.DB_NAME,
       entities: ['dist/**/*.entity{.ts,.js}'],
-      //migrations:['dist/migrations/*.js'],
+      migrations:['dist/migrations/*.js'],
       synchronize: true,
       
     },
